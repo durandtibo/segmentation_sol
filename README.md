@@ -22,17 +22,21 @@ conda install pytorch torchvision -c pytorch
 ```
 pip install tqdm
 ```
-
+- To clone this repository, run the command: 
+```
+git clone https://github.com/durandtibo/segmentation_sol.git
+```
 
 ## Evaluation
 
-To predict the mask of one image
+
+From the folder `segmentation_sol`, to predict the mask of one image, run the command: 
 ```
 python -m segmentation.main --image data/test.JPG --max_size 1000 --output_dir outputs
 ```
 
 
-To predict the mask of all the images in a directory 
+From the folder `segmentation_sol`, to predict the mask of all the images in a directory, run the command: 
 ```
 python -m segmentation.main --image data --max_size 1000 --output_dir outputs
 ```
