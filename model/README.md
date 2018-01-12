@@ -1,0 +1,1 @@
+Put the model checkpoint (checkpoint_resnet_50_hc5_psp.pth.tar) here
